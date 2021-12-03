@@ -6,7 +6,7 @@ services:
     command: sh -c "yarn install && yarn run dev"
     ports:
       - 3000:3000
-    working_dir: /root/myapp/docker_app/app
+    working_dir: /root/myapp/docker_app
     volumes:
       - ./:/app
     environment:
